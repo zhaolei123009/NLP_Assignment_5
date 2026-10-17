@@ -1,0 +1,6 @@
+                           test   n   pearson   pvalue  qvalue_bh  ci95_low  ci95_high
+                  odds_same_day 103 -0.026610 0.780840        1.0 -0.196842   0.159568
+                  odds_next_day 101  0.031676 0.768428        1.0 -0.176758   0.245225
+      equal_basket_next_session  83  0.162942 0.062549        1.0 -0.033980   0.360109
+directional_spread_next_session  83 -0.000275 0.932763        1.0 -0.204621   0.190201
+Completed offline analysis. Saved outputs are in results/.

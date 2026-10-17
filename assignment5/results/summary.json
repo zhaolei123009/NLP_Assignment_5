@@ -1,0 +1,1057 @@
+{
+  "historical_cutoff": "2026-10-07T23:04:38Z",
+  "executed_at_utc": "2026-10-17T18:06:15.595525+00:00",
+  "equities": {
+    "adjustments": {
+      "market_adjusted": {
+        "FSLR_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              -0.0011398787109423423,
+              -0.2992223328492997
+            ],
+            "standard_errors": [
+              0.0031899561750723887,
+              0.3481168032513038
+            ],
+            "pvalues": [
+              0.7214969580789703,
+              0.3918277172743405
+            ],
+            "ci95": [
+              [
+                -0.0074585679583167135,
+                0.005178810536432028
+              ],
+              [
+                -0.9887747219144682,
+                0.39033005621586875
+              ]
+            ],
+            "r_squared": 0.012395484991627237,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.11133501242478623,
+            "spearman": -0.06304577770323996,
+            "pearson_ci95": [
+              -0.3694618345134342,
+              0.14686621114270015
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "FSLR_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              -0.0012558023843101597,
+              -0.12513072996297672
+            ],
+            "standard_errors": [
+              0.0030718598627719287,
+              0.23632264916505158
+            ],
+            "pvalues": [
+              0.6834471666993602,
+              0.5974944632467329
+            ],
+            "ci95": [
+              [
+                -0.007341133112922523,
+                0.0048295283443022035
+              ],
+              [
+                -0.5932840777961944,
+                0.343022617870241
+              ]
+            ],
+            "r_squared": 0.0021827422008990904,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.046719826636013866,
+            "spearman": -0.07744631200413402,
+            "pearson_ci95": [
+              -0.22000091892130183,
+              0.1429747881824771
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "HCA_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              -0.0010463008944349098,
+              0.18118049103262757
+            ],
+            "standard_errors": [
+              0.0018985642779452856,
+              0.13998771390390155
+            ],
+            "pvalues": [
+              0.582633482208563,
+              0.19816864588277544
+            ],
+            "ci95": [
+              [
+                -0.00480699133345943,
+                0.0027143895445896106
+              ],
+              [
+                -0.09610822833011723,
+                0.45846921039537236
+              ]
+            ],
+            "r_squared": 0.00842476016500382,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": 0.09178649227966043,
+            "spearman": 0.08535360783247911,
+            "pearson_ci95": [
+              -0.06352028810993847,
+              0.2460279140351016
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "HCA_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              -0.001013259851963664,
+              -0.054633732630486966
+            ],
+            "standard_errors": [
+              0.002091781881597729,
+              0.16010400542804526
+            ],
+            "pvalues": [
+              0.6290311366241746,
+              0.7335517990201553
+            ],
+            "ci95": [
+              [
+                -0.00515706364845421,
+                0.003130543944526882
+              ],
+              [
+                -0.37179853425852943,
+                0.26253106899755546
+              ]
+            ],
+            "r_squared": 0.000752773656819139,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.02743672095603984,
+            "spearman": -0.09423215901917574,
+            "pearson_ci95": [
+              -0.19600026183644795,
+              0.12991116439150271
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "GEO_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              0.004067446606032804,
+              -0.38492303371090286
+            ],
+            "standard_errors": [
+              0.002416269359308606,
+              0.21531408939315114
+            ],
+            "pvalues": [
+              0.09501860997134377,
+              0.07645364044680988
+            ],
+            "ci95": [
+              [
+                -0.0007187179622239939,
+                0.008853611174289603
+              ],
+              [
+                -0.8114188056867779,
+                0.04157273826497221
+              ]
+            ],
+            "r_squared": 0.02111089149552181,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.14529587570031716,
+            "spearman": -0.11947428463595551,
+            "pearson_ci95": [
+              -0.28191264077734884,
+              0.010180482529536126
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "GEO_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              0.003711338255549447,
+              -0.09065294850398867
+            ],
+            "standard_errors": [
+              0.002412755102928552,
+              0.25350403214426903
+            ],
+            "pvalues": [
+              0.12676689110708683,
+              0.7213041550772303
+            ],
+            "ci95": [
+              [
+                -0.0010683110202539597,
+                0.008490987531352853
+              ],
+              [
+                -0.5928424836876096,
+                0.41153658667963233
+              ]
+            ],
+            "r_squared": 0.0011605364044291466,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.034066646509876765,
+            "spearman": -0.10725544878347357,
+            "pearson_ci95": [
+              -0.24735389408216235,
+              0.13112764034176863
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "equal_weight_basket_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              0.0006270890002185168,
+              -0.16765495850919174
+            ],
+            "standard_errors": [
+              0.0012080954613498962,
+              0.1446620794335577
+            ],
+            "pvalues": [
+              0.6047077642302404,
+              0.24888069973913954
+            ],
+            "ci95": [
+              [
+                -0.0017659155999967641,
+                0.003020093600433798
+              ],
+              [
+                -0.4542026963629555,
+                0.11889277934457207
+              ]
+            ],
+            "r_squared": 0.018261633767307828,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.1351356125057639,
+            "spearman": -0.14922205166651448,
+            "pearson_ci95": [
+              -0.3277254485014048,
+              0.08965687935533265
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "equal_weight_basket_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              0.0004807586730918745,
+              -0.09013913703248418
+            ],
+            "standard_errors": [
+              0.0011888319603554724,
+              0.10664450328991551
+            ],
+            "pvalues": [
+              0.686679381135301,
+              0.39975289953757026
+            ],
+            "ci95": [
+              [
+                -0.0018743082839598553,
+                0.002835825630143604
+              ],
+              [
+                -0.3014010766712677,
+                0.12112280260629936
+              ]
+            ],
+            "r_squared": 0.005274208656340873,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.07262374719291696,
+            "spearman": -0.11823538684562257,
+            "pearson_ci95": [
+              -0.25494244657851184,
+              0.08981341399038455
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "pro_democratic_spread_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              -0.005160536408721433,
+              0.3259021128025666
+            ],
+            "standard_errors": [
+              0.0030742123091512946,
+              0.3039851246509797
+            ],
+            "pvalues": [
+              0.09593500136934395,
+              0.28592032549312
+            ],
+            "ci95": [
+              [
+                -0.01124995933364278,
+                0.0009288865161999147
+              ],
+              [
+                -0.2762339144895059,
+                0.9280381400946391
+              ]
+            ],
+            "r_squared": 0.009696607319189421,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": 0.09847135278439771,
+            "spearman": 0.029687864156957365,
+            "pearson_ci95": [
+              -0.08606639598829903,
+              0.2715889511101381
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "pro_democratic_spread_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              -0.0048458693736863605,
+              0.0007707172072567549
+            ],
+            "standard_errors": [
+              0.003089044523984882,
+              0.3014318408442222
+            ],
+            "pvalues": [
+              0.11948301401165064,
+              0.9979643967965481
+            ],
+            "ci95": [
+              [
+                -0.010965242783804908,
+                0.001273504036432187
+              ],
+              [
+                -0.5963634378698317,
+                0.5979048722843452
+              ]
+            ],
+            "r_squared": 5.430078120483017e-08,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": 0.00023302528012466306,
+            "spearman": 0.058383235682480696,
+            "pearson_ci95": [
+              -0.16423940737123313,
+              0.20039978548090542
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "odds_oos": {
+          "oos_n": 56,
+          "mse": {
+            "baseline": 0.0010091572044073564,
+            "augmented": 0.0010289488044197184
+          },
+          "mse_improvement_fraction": -0.019612008838588046,
+          "mean_paired_squared_error_improvement": -1.979160001236183e-05,
+          "validation": "expanding window, chronological, training-only feature standardization"
+        }
+      },
+      "factor_adjusted": {
+        "FSLR_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              0.0028615559886844212,
+              -0.22157064573773472
+            ],
+            "standard_errors": [
+              0.0022867618833912204,
+              0.24436273191476549
+            ],
+            "pvalues": [
+              0.21334374797628855,
+              0.36644638867891316
+            ],
+            "ci95": [
+              [
+                -0.001668079194645887,
+                0.007391191172014729
+              ],
+              [
+                -0.7056061878792552,
+                0.26246489640378573
+              ]
+            ],
+            "r_squared": 0.01205069111427326,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.10977563989461929,
+            "spearman": 0.0006269834103635063,
+            "pearson_ci95": [
+              -0.3418811205332669,
+              0.1316285693914807
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "FSLR_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              0.0029663697746349425,
+              -0.1737540013573397
+            ],
+            "standard_errors": [
+              0.0022195678174602267,
+              0.14468971744594983
+            ],
+            "pvalues": [
+              0.1840593900678094,
+              0.23228960404230206
+            ],
+            "ci95": [
+              [
+                -0.0014305769765888487,
+                0.007363316525858733
+              ],
+              [
+                -0.4603832172140693,
+                0.11287521449938986
+              ]
+            ],
+            "r_squared": 0.007306309906548014,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.08547695541225014,
+            "spearman": -0.1106979629965315,
+            "pearson_ci95": [
+              -0.24083948642416864,
+              0.06334302170125357
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "HCA_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              -0.0012292369146326748,
+              0.154360170100108
+            ],
+            "standard_errors": [
+              0.0018283630570589111,
+              0.14240471139824384
+            ],
+            "pvalues": [
+              0.5027314014030636,
+              0.2806524782301259
+            ],
+            "ci95": [
+              [
+                -0.004850872245930764,
+                0.0023923984166654136
+              ],
+              [
+                -0.12771615612625925,
+                0.43643649632647524
+              ]
+            ],
+            "r_squared": 0.00700225750412331,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": 0.08367949273342724,
+            "spearman": 0.08387201009206598,
+            "pearson_ci95": [
+              -0.07749743992448437,
+              0.2522486986455137
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "HCA_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              -0.001334332928132025,
+              0.034359517909831716
+            ],
+            "standard_errors": [
+              0.0019753171061021157,
+              0.14266839746477442
+            ],
+            "pvalues": [
+              0.5007240748910371,
+              0.8101157379143603
+            ],
+            "ci95": [
+              [
+                -0.005247420901380274,
+                0.0025787550451162244
+              ],
+              [
+                -0.24826547863244464,
+                0.31698451445210807
+              ]
+            ],
+            "r_squared": 0.00034158648917614887,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": 0.018482058575174428,
+            "spearman": -0.059326952332067494,
+            "pearson_ci95": [
+              -0.13171723211855874,
+              0.1662991515008776
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "GEO_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              0.0052688910494912014,
+              -0.3887404837341394
+            ],
+            "standard_errors": [
+              0.0022431244223015544,
+              0.2115379671947758
+            ],
+            "pvalues": [
+              0.020535252056932005,
+              0.06868997248850543
+            ],
+            "ci95": [
+              [
+                0.0008256932781619325,
+                0.009712088820820471
+              ],
+              [
+                -0.8077564843833427,
+                0.030275516915063916
+              ]
+            ],
+            "r_squared": 0.0227909006348459,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.15096655468959302,
+            "spearman": -0.1180965185431185,
+            "pearson_ci95": [
+              -0.29473854786985054,
+              0.010273241405082432
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "GEO_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              0.0048398662255531594,
+              -0.017819044011287137
+            ],
+            "standard_errors": [
+              0.0022638099581724805,
+              0.2448211023753886
+            ],
+            "pvalues": [
+              0.03465806440816166,
+              0.9421055998480707
+            ],
+            "ci95": [
+              [
+                0.0003552761343324296,
+                0.00932445631677389
+              ],
+              [
+                -0.5028077621988907,
+                0.4671696741763164
+              ]
+            ],
+            "r_squared": 4.752651599038149e-05,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.006893947779768682,
+            "spearman": -0.08696554081735738,
+            "pearson_ci95": [
+              -0.22626530384399599,
+              0.1618084552932174
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "equal_weight_basket_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              0.0023004033745143166,
+              -0.15198365312392204
+            ],
+            "standard_errors": [
+              0.001193319740431682,
+              0.12589122482510423
+            ],
+            "pvalues": [
+              0.05635428281453773,
+              0.22980861623276932
+            ],
+            "ci95": [
+              [
+                -6.333336628091928e-05,
+                0.0046641401153095525
+              ],
+              [
+                -0.4013499406162962,
+                0.09738263436845213
+              ]
+            ],
+            "r_squared": 0.015034321487521152,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": -0.12261452396645801,
+            "spearman": -0.10582042297969547,
+            "pearson_ci95": [
+              -0.2862907016197488,
+              0.07481846365653591
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "equal_weight_basket_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              0.0021573010240186928,
+              -0.05240450915293158
+            ],
+            "standard_errors": [
+              0.0012110134394944028,
+              0.09990640842293562
+            ],
+            "pvalues": [
+              0.07750980312053356,
+              0.6009242638627907
+            ],
+            "ci95": [
+              [
+                -0.00024170727236497028,
+                0.004556309320402355
+              ],
+              [
+                -0.2503183347571973,
+                0.14550931645133414
+              ]
+            ],
+            "r_squared": 0.0017692173206583783,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.04206206510216404,
+            "spearman": -0.1017326548254569,
+            "pearson_ci95": [
+              -0.21001381859489857,
+              0.10716693391011535
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "pro_democratic_spread_ar_contemporaneous": {
+          "regression": {
+            "n": 117,
+            "coefficients": [
+              -0.004452731512465331,
+              0.3551352459153261
+            ],
+            "standard_errors": [
+              0.0026787245414320792,
+              0.26474146742432336
+            ],
+            "pvalues": [
+              0.09918449621304463,
+              0.1824201702159815
+            ],
+            "ci95": [
+              [
+                -0.009758769284674104,
+                0.0008533062597434428
+              ],
+              [
+                -0.16926664920168866,
+                0.8795371410323408
+              ]
+            ],
+            "r_squared": 0.013975339810192278,
+            "hac_lags": 5,
+            "condition_number": 89.34306440534203,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 117,
+            "pearson": 0.118217341410611,
+            "spearman": 0.04659644861223817,
+            "pearson_ci95": [
+              -0.05847898042759769,
+              0.291898136326374
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "pro_democratic_spread_ar_lagged": {
+          "regression": {
+            "n": 116,
+            "coefficients": [
+              -0.004023847802301699,
+              -0.05187819771246676
+            ],
+            "standard_errors": [
+              0.0027107714302587248,
+              0.2610202414564804
+            ],
+            "pvalues": [
+              0.14046471349288173,
+              0.8428110654750472
+            ],
+            "ci95": [
+              [
+                -0.00939386512721723,
+                0.001346169522613832
+              ],
+              [
+                -0.5689572856535527,
+                0.46520089022861927
+              ]
+            ],
+            "r_squared": 0.0002965510095407353,
+            "hac_lags": 5,
+            "condition_number": 89.35262604012965,
+            "inference": "Newey-West HAC, Bartlett weights, finite-sample n/(n-k), t approximation"
+          },
+          "correlation": {
+            "n": 116,
+            "pearson": -0.017220656478209084,
+            "spearman": 0.058489916695042686,
+            "pearson_ci95": [
+              -0.17150512840778762,
+              0.1661638157122964
+            ],
+            "bootstrap": "paired circular moving blocks",
+            "block_length": 5,
+            "repeats": 1000,
+            "warning": "CI describes association; no causal interpretation"
+          }
+        },
+        "odds_oos": {
+          "oos_n": 56,
+          "mse": {
+            "baseline": 0.0008584147318720135,
+            "augmented": 0.000873776082461635
+          },
+          "mse_improvement_fraction": -0.017895022090454793,
+          "mean_paired_squared_error_improvement": -1.5361350589621635e-05,
+          "validation": "expanding window, chronological, training-only feature standardization"
+        }
+      }
+    },
+    "dates": {
+      "start": "2026-04-07",
+      "end": "2026-10-07",
+      "sessions": 128
+    },
+    "quote_age_hours": {
+      "count": 119.0,
+      "mean": 6.512605042016807,
+      "std": 2.3064594123141053,
+      "min": 5.0,
+      "25%": 5.0,
+      "50%": 5.0,
+      "75%": 8.0,
+      "max": 20.0
+    },
+    "total_returns": {
+      "FSLR": -0.07894872354230509,
+      "HCA": -0.08897846571043555,
+      "GEO": 0.7175013883823249,
+      "SPY": 0.1854935635582906
+    },
+    "cumulative_abnormal_return_sum": {
+      "FSLR_ar": -0.30026110889699875,
+      "HCA_ar": -0.16513873394104137,
+      "GEO_ar": 0.429763855179912,
+      "equal_weight_basket_ar": -0.011878662552709335,
+      "pro_democratic_spread_ar": -0.6624637765989321
+    },
+    "selection_warning": "Basket selected at research date, retrospectively; not a historical preregistered trading strategy",
+    "factor_warning": "GEO uses IWM as a size robustness control, not a detention-industry benchmark",
+    "price_warning": "Sparse vendor buckets matched backward at close; v2 observations have full-width availability embargo. No historical bid-ask, volume or executable-price verification",
+    "risk_free_warning": "Market-model abnormal returns; risk-free rate not supplied, not CAPM excess returns"
+  },
+  "sentiment": {
+    "cutoff": "2026-10-07T23:04:38Z",
+    "start": "2026-04-07T00:00:00Z",
+    "method": "VADER 3.3.2 issue-sentence affect; equal-author daily aggregation",
+    "social_documents": 307,
+    "news_documents": 112,
+    "scored_rows": 1027,
+    "social_topics": {
+      "model": "TF-IDF + NMF; weights are not calibrated topic probabilities",
+      "train_until": "2026-05-31T23:59:59+00:00",
+      "train_n": 78,
+      "topics": [
+        {
+          "id": 0,
+          "terms": [
+            "midterms",
+            "trump",
+            "people",
+            "don",
+            "states",
+            "win",
+            "democrats"
+          ]
+        },
+        {
+          "id": 1,
+          "terms": [
+            "inflation",
+            "biden era",
+            "era",
+            "inflation biden",
+            "biden",
+            "previous",
+            "wasn"
+          ]
+        },
+        {
+          "id": 2,
+          "terms": [
+            "american",
+            "missiles",
+            "president",
+            "war",
+            "attrited",
+            "big time",
+            "bombs war"
+          ]
+        },
+        {
+          "id": 3,
+          "terms": [
+            "iran",
+            "war",
+            "midterm",
+            "midterm elections",
+            "trump",
+            "oil",
+            "israel"
+          ]
+        }
+      ],
+      "documents": 307,
+      "heldout_documents": 229,
+      "descriptive_topic_counts": {
+        "nmf_topic_0": 167,
+        "nmf_topic_3": 109,
+        "nmf_topic_1": 23,
+        "nmf_topic_2": 8
+      }
+    },
+    "tests_in_family": 87,
+    "estimated_hac_tests": 29,
+    "significant_bh_005": 0,
+    "oos": {
+      "equal_weight_basket_ar": {
+        "oos_n": 43,
+        "mse": {
+          "baseline": 0.00016204834813908896,
+          "augmented": 0.00017215704789089105
+        },
+        "mse_improvement_fraction": -0.062380763937967654,
+        "mean_paired_squared_error_improvement": -1.0108699751802079e-05,
+        "validation": "expanding window, chronological, training-only feature standardization"
+      },
+      "pro_democratic_spread_ar": {
+        "oos_n": 43,
+        "mse": {
+          "baseline": 0.0008266268812519688,
+          "augmented": 0.0008538488715880363
+        },
+        "mse_improvement_fraction": -0.03293141192654958,
+        "mean_paired_squared_error_improvement": -2.7221990336067485e-05,
+        "validation": "expanding window, chronological, training-only feature standardization"
+      },
+      "odds": {
+        "oos_n": 61,
+        "mse": {
+          "baseline": 0.0031071811624701733,
+          "augmented": 0.00316197655941638
+        },
+        "mse_improvement_fraction": -0.017635082758626464,
+        "mean_paired_squared_error_improvement": -5.479539694620714e-05,
+        "validation": "expanding window, chronological, training-only feature standardization"
+      }
+    },
+    "limitations": [
+      "Hacker News users are not a representative voter sample.",
+      "General affect is not sentiment toward a party or validated partisan advantage.",
+      "Sparse issue-day samples, especially immigration, limit inference.",
+      "Historical text can have been edited after creation; collection is not an immutable point-in-time archive.",
+      "No independent domain-specific labeled accuracy estimate or complete poll/macro controls."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "comparison": "Larger saved-output package vs compact core",
+  "checks": [
+    {
+      "output": "sentiment_estimates.csv",
+      "equivalent": true,
+      "max_absolute_difference": 5.218048215738236e-15
+    },
+    {
+      "output": "odds_equity.csv",
+      "equivalent": true,
+      "max_absolute_difference": 3.885780586188048e-15
+    },
+    {
+      "output": "daily_indices.csv",
+      "equivalent": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "forecast_errors_match": true
+}

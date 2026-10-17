@@ -1,0 +1,222 @@
+{
+  "sources": [
+    {
+      "id": "ipsos_oct",
+      "title": "Reuters/Ipsos Large Sample Survey, Sept 30-Oct 5, 2026; Oct 7 release",
+      "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Large%20Issue%20Topline%2010.7%20release.pdf",
+      "used_for": "Registered-voter issue priorities, n=3526; AI policy support; table transcribed from web PDF reader. Binary download denied."
+    },
+    {
+      "id": "pew_july",
+      "title": "Pew Research Center, July 23, 2026",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/",
+      "used_for": "Open-ended campaign discussion priorities; do not splice with prompted Ipsos percentages."
+    },
+    {
+      "id": "ipsos_aug",
+      "title": "Ipsos, August 31, 2026",
+      "url": "https://www.ipsos.com/en-us/cost-living-remains-top-mind-voters-heading-2026-midterms",
+      "used_for": "47% of registered voters selected cost of living; separate single-factor question."
+    },
+    {
+      "id": "fslr",
+      "title": "First Solar company release, July 30, 2026",
+      "url": "https://www.businesswire.com/news/home/20260730673319/en/First-Solar-Inc.-Announces-Second-Quarter-2026-Financial-Results-and-Reaffirms-Guidance",
+      "used_for": "Company Section 45X exposure. Election sign is a hypothesis, not a company forecast."
+    },
+    {
+      "id": "hca",
+      "title": "HCA company release, July 14, 2026",
+      "url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Previews-Second-Quarter-2026-Results/default.aspx",
+      "used_for": "Payer mix and insurance coverage effects."
+    },
+    {
+      "id": "geo",
+      "title": "GEO SEC filing, October 2026",
+      "url": "https://investors.geogroup.com/node/19191/html",
+      "used_for": "ICE facilities, existing contracts and appropriations/termination risk."
+    },
+    {
+      "id": "poly",
+      "title": "Polymarket, Balance of Power: 2026 Midterms",
+      "url": "https://polymarket.com/event/balance-of-power-2026-midterms/2026-balance-of-power-other-131",
+      "used_for": "Direct joint outcome; actual metadata/price observations acquired through official Gamma and history APIs."
+    },
+    {
+      "id": "poly_api",
+      "title": "Polymarket historical price API documentation",
+      "url": "https://docs.polymarket.com/api-reference/markets/get-a-tokens-price-history",
+      "used_for": "Token-level time series, retention, resolution and pagination."
+    },
+    {
+      "id": "kalshi_api",
+      "title": "Kalshi market candlesticks",
+      "url": "https://docs.kalshi.com/api-reference/market/get-market-candlesticks",
+      "used_for": "Implemented optional adapter; compatible contract data not acquired."
+    },
+    {
+      "id": "gdelt",
+      "title": "GDELT official DOC 2.0 documentation",
+      "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+      "used_for": "News search and general media tone; tone is not target-specific political stance."
+    },
+    {
+      "id": "equity",
+      "title": "Yahoo Finance public chart data",
+      "url": "https://finance.yahoo.com/",
+      "used_for": "Adjusted closes retrieved through public chart endpoint; vendor data subject to revisions, not official exchange tape."
+    },
+    {
+      "id": "fec",
+      "title": "FEC 2026 general-election calendar",
+      "url": "https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/electioneering-communications-periods-general-election-2026/",
+      "used_for": "November 3, 2026 general election."
+    },
+    {
+      "id": "hn",
+      "title": "Hacker News Search API",
+      "url": "https://hn.algolia.com/api",
+      "used_for": "Historical comment search, timestamps, and pagination; community selection and mutable text limitations apply."
+    },
+    {
+      "id": "vader",
+      "title": "Hutto and Gilbert (2014), VADER; implementation version 3.3.2 (2020)",
+      "url": "https://github.com/cjhutto/vaderSentiment",
+      "used_for": "Fixed lexicon and rule-based compound affect scores; no independent political-domain accuracy claim."
+    }
+  ],
+  "original_archive": {
+    "original_archive_filename": "Midterm_Research_Code_and_Data(1).zip",
+    "original_archive_sha256": "f822df38264ed9b156da8bbe23265d76e2738702f21b930859af3655b74120ae",
+    "internal_manifest_verified": true,
+    "original_cutoff": "2026-10-07T23:04:38Z",
+    "analysis_execution_date": "2026-10-17T17:30:59.466856+00:00",
+    "note": "The new analysis execution and historical data cutoff are distinct. ZIP member timestamps are metadata, not independently verified Git commit evidence."
+  },
+  "social_acquisition_requests": [
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1777593600%2Ccreated_at_i%3C%3D1780271999&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:10.606377+00:00",
+      "sha256": "e124920d5bbf0b2e9ac0578d8d3b9677fe0f8c77316791490f3a1460afddf9ea",
+      "file": "data/raw/hn_history/be4fbde5e3ba61fa31b3.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1775520000%2Ccreated_at_i%3C%3D1777593599&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:10.605247+00:00",
+      "sha256": "64b58f11c2e2eaae624e6dba769cded8253f897f6075ba7513ad9ee1a602f711",
+      "file": "data/raw/hn_history/99c565b75922a57ed05c.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1780272000%2Ccreated_at_i%3C%3D1782863999&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:10.607195+00:00",
+      "sha256": "d3021dcc77f9eb30dbe0bf74e0739ab97ac4426f3a7852fcc485d948eb7fb483",
+      "file": "data/raw/hn_history/9124c1b439c3dbd2241a.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1785542400%2Ccreated_at_i%3C%3D1788220799&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:17.363610+00:00",
+      "sha256": "c369afc074ef6cdcf4905a5efa1174ea7695a0aced1ddd4af729ffb8c927b4e3",
+      "file": "data/raw/hn_history/191346cb48163cb5e044.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1788220800%2Ccreated_at_i%3C%3D1790812799&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:17.893102+00:00",
+      "sha256": "df18bf52382fc9c5f91a379397dbc1a9dfd7f4fcfbb54ad8a204883541cd00d3",
+      "file": "data/raw/hn_history/42c14608785f44471d85.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1782864000%2Ccreated_at_i%3C%3D1785542399&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:17.123043+00:00",
+      "sha256": "0b0639c78b0bef4f3dd5bc12f64e15011b6971eea84f15cef5e284e3029e773c",
+      "file": "data/raw/hn_history/6d1ce2af624d1e5dadf7.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1790812800%2Ccreated_at_i%3C%3D1791414278&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:22.152226+00:00",
+      "sha256": "67849d8d5383f99ef767af2184e7937b87c8fc77555b94932b66ac106df81b69",
+      "file": "data/raw/hn_history/ccfb3ebcd597cd0fb748.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterm&tags=comment&numericFilters=created_at_i%3E%3D1788220800%2Ccreated_at_i%3C%3D1790812799&hitsPerPage=100&page=1&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:22.911421+00:00",
+      "sha256": "0a45526362219456a23b56d6004dda7f3648ee6f0642141b0e70a206669dd07a",
+      "file": "data/raw/hn_history/90b1aec0579a6f6e2ee4.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1777593600%2Ccreated_at_i%3C%3D1780271999&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:27.888268+00:00",
+      "sha256": "a019ab85cc3d90b790dd7d6cb15244666cea447b2acf6f2a1c28996438b1cfbb",
+      "file": "data/raw/hn_history/6e75fda7333c5777088c.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1775520000%2Ccreated_at_i%3C%3D1777593599&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:25.889099+00:00",
+      "sha256": "8c737c8805c622ad29661955410f684d5ed783bd8b288229fcbf96aebd9f3de9",
+      "file": "data/raw/hn_history/b21bc60906a47da5bfa1.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1780272000%2Ccreated_at_i%3C%3D1782863999&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:28.911680+00:00",
+      "sha256": "da0244ab1ea45a0b5597709ead72a4b65f4f18cf7fce984f3107b0325acc43ea",
+      "file": "data/raw/hn_history/855af37e163613814fc3.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1782864000%2Ccreated_at_i%3C%3D1785542399&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:32.017540+00:00",
+      "sha256": "e9c61cdb078a94ee9218dbca6f4785117aff37b8b1a70874c2a5af9a7f97b65f",
+      "file": "data/raw/hn_history/913a2c4e34087004662e.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1785542400%2Ccreated_at_i%3C%3D1788220799&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:33.330827+00:00",
+      "sha256": "07feb16c169f5e7edfed1c4ec2936ca6ee1d50485116c73a61160c56579b160d",
+      "file": "data/raw/hn_history/87e9133656424e1ee4cb.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1790812800%2Ccreated_at_i%3C%3D1791414278&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:37.143865+00:00",
+      "sha256": "c0097d4c88829d1f27d2970b5c3a7446ec844497e8e0dbb0f9188eb6d34f819b",
+      "file": "data/raw/hn_history/2f59d965623677471808.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=midterms&tags=comment&numericFilters=created_at_i%3E%3D1788220800%2Ccreated_at_i%3C%3D1790812799&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:35.894714+00:00",
+      "sha256": "6ee992eb2b501e851241f94c7a3fa92fb08a61b36dff30ffc31077673c42c39d",
+      "file": "data/raw/hn_history/56842c990fb9c9787d26.json",
+      "status": 200
+    },
+    {
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=inflation&tags=comment&numericFilters=created_at_i%3E%3D1775520000%2Ccreated_at_i%3C%3D1777593599&hitsPerPage=100&page=0&typoTolerance=false&removeWordsIfNoResults=none",
+      "retrieved_at": "2026-10-17T17:30:37.380152+00:00",
+      "sha256": "a54f9335a3bbec7267178b9b441100fbd325e473ebfbc6143d4bd015ada889c7",
+      "file": "data/raw/hn_history/64862b7812fc1e0de3ce.json",
+      "status": 200
+    }
+  ],
+  "joint_contract": {
+    "event_id": "32228",
+    "market_id": "562828",
+    "yes_token_id": "34722410608062854697106861099776685947172185964394483545370684749662285977831",
+    "question": "2026 Balance of Power: D Senate, D House",
+    "platform": "polymarket",
+    "history_api": "v2 3-hour",
+    "requested_resolution_seconds": 10800,
+    "historical_price_type": "API price; not verified historical midpoint",
+    "rules_reference": "https://polymarket.com/event/balance-of-power-2026-midterms/2026-balance-of-power-other-131",
+    "note": "Only historical observations at or before the fixed cutoff enter estimates; live metadata price snapshots are not used."
+  }
+}

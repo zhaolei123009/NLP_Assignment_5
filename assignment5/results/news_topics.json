@@ -1,0 +1,108 @@
+{
+  "model": "TF-IDF + NMF; weights are not calibrated topic probabilities",
+  "train_until": "2026-10-02T07:00:00+00:00",
+  "train_n": 74,
+  "topics": [
+    {
+      "id": 0,
+      "terms": [
+        "trump",
+        "ai",
+        "rally",
+        "americans",
+        "interview",
+        "latest",
+        "official",
+        "images",
+        "need",
+        "midterm rally"
+      ]
+    },
+    {
+      "id": 1,
+      "terms": [
+        "iran",
+        "aircraft carrier",
+        "carrier",
+        "aircraft",
+        "mideast",
+        "strikes",
+        "troops",
+        "weighs",
+        "official",
+        "president trump"
+      ]
+    },
+    {
+      "id": 2,
+      "terms": [
+        "midterms",
+        "ahead",
+        "predicts",
+        "vance",
+        "interview",
+        "ahead midterms",
+        "elections",
+        "democrats",
+        "just",
+        "exclusive"
+      ]
+    },
+    {
+      "id": 3,
+      "terms": [
+        "paxton",
+        "ken",
+        "ken paxton",
+        "texas",
+        "gop",
+        "voters",
+        "senate",
+        "political",
+        "poll",
+        "economy"
+      ]
+    },
+    {
+      "id": 4,
+      "terms": [
+        "candidates",
+        "campaign",
+        "hits",
+        "trail",
+        "hits campaign",
+        "campaign trail",
+        "gop candidates",
+        "trump hits",
+        "gop",
+        "nil"
+      ]
+    },
+    {
+      "id": 5,
+      "terms": [
+        "ice",
+        "says",
+        "officers",
+        "ice officers",
+        "europe",
+        "plans",
+        "plans ice",
+        "polls activists",
+        "says plans",
+        "preparing"
+      ]
+    }
+  ],
+  "raw_documents": 250,
+  "deduplicated_documents": 112,
+  "heldout_documents": 38,
+  "descriptive_topic_counts": {
+    "nmf_topic_0": 36,
+    "nmf_topic_5": 19,
+    "nmf_topic_2": 18,
+    "nmf_topic_3": 16,
+    "nmf_topic_4": 13,
+    "nmf_topic_1": 10
+  }
+}

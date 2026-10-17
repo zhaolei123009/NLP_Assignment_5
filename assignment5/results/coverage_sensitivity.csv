@@ -1,0 +1,4 @@
+sensitivity,outcome,n,pearson,spearman,pvalue,coefficient,ci95_low,ci95_high,inference,qvalue_bh
+author_balanced,same_day_odds,103,-0.026609538744408065,-0.0007889962171954144,0.7808401737668206,-0.0030468098194446846,-0.1968419900798152,0.15956781435875678,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+story_balanced,same_day_odds,103,-0.03197788286244992,-0.00922268611935164,0.7321874321030655,-0.0035791164598577008,-0.1990683633708006,0.152133248621153,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+higher_coverage,same_day_odds,24,0.10044580450465425,0.12274563199607832,,,,,descriptive only,

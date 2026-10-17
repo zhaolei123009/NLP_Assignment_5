@@ -1,0 +1,12 @@
+test_equal_author_weight_and_partial_day (test_core.CoreIntegrity.test_equal_author_weight_and_partial_day) ... ok
+test_exam_midterms_rejected (test_core.CoreIntegrity.test_exam_midterms_rejected) ... ok
+test_future_documents_rejected (test_core.CoreIntegrity.test_future_documents_rejected) ... ok
+test_missing_day_is_not_replaced_by_older_signal (test_core.CoreIntegrity.test_missing_day_is_not_replaced_by_older_signal) ... ok
+test_policy_does_not_match_crime (test_core.CoreIntegrity.test_policy_does_not_match_crime) ... ok
+test_quote_requires_full_bucket_embargo (test_core.CoreIntegrity.test_quote_requires_full_bucket_embargo) ... ok
+test_small_samples_have_no_hac_pvalue (test_core.CoreIntegrity.test_small_samples_have_no_hac_pvalue) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.652s
+
+OK

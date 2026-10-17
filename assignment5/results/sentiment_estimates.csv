@@ -1,0 +1,85 @@
+source,topic,specification,test,n,pearson,spearman,pvalue,coefficient,ci95_low,ci95_high,inference,qvalue_bh
+social,pooled,market_adjusted,odds_same_day,103,-0.026609538744408065,-0.0007889962171954144,0.7808401737668206,-0.0030468098194446846,-0.1968419900798152,0.15956781435875678,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,market_adjusted,odds_next_day,101,0.0316759985011679,0.08163479471333247,0.7684283645840836,0.0035669935232929845,-0.17675836215559648,0.24522497161821746,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,market_adjusted,odds_sentiment_changes,67,-0.030692607447860388,-0.011927300844727288,0.8516045968375263,-0.0029246884773860013,-0.340027372135301,0.24788340732097075,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,market_adjusted,equal_basket_next_session,83,0.16294240191158155,0.16989320708109315,0.06254926023825191,0.004828824776186479,-0.03398016289225564,0.3601093077874747,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,market_adjusted,directional_spread_next_session,83,-0.0002746584702500218,0.030122536870497145,0.9327631601851636,-0.0005666885792094505,-0.20462073761033947,0.1902008354509887,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,factor_adjusted,equal_basket_next_session,83,0.0865346496486842,0.057505707147544896,0.13765697698602716,0.0030022329763667636,-0.06731637881468268,0.24415998865829977,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,pooled,factor_adjusted,directional_spread_next_session,83,-0.040036308785726636,0.0023405316104950745,0.6630078798854709,-0.0024124486861624786,-0.23633376834738185,0.13961193580303397,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,market_adjusted,odds_same_day,119,0.007076816658023169,0.086271323005586,0.913696540077192,0.0006925390065121766,-0.11296816613194947,0.1614107005294308,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,market_adjusted,odds_next_day,117,0.08191912947174948,0.1650024190401399,0.20578366945272553,0.00801733675519649,-0.060509525017929694,0.22111257359691044,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,market_adjusted,odds_sentiment_changes,87,-0.08520816046996875,-0.11325554784306481,0.2762815334708193,-0.007000378335100758,-0.20304817753528087,0.044956705219744195,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,market_adjusted,equal_basket_next_session,95,0.10954976971701184,0.09937044852541431,0.21921722125406726,0.0029067562966447053,-0.08741371629197453,0.3214642825591203,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,market_adjusted,directional_spread_next_session,95,-0.11939757289052301,-0.09726377821930432,0.30871395553021286,-0.0073105826825574476,-0.3388897718005626,0.09418766854801286,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,factor_adjusted,equal_basket_next_session,95,-0.007418627123133437,-0.02948638538086847,0.9137173894237921,0.0002601906960583058,-0.1956142354102952,0.20540532218372046,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,election_all,factor_adjusted,directional_spread_next_session,95,-0.15689466079999473,-0.14765589185382913,0.1514886216105999,-0.008218771682289985,-0.3701058833316923,0.04843681435018019,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,market_adjusted,odds_same_day,55,0.011670785326644055,0.12444058759680873,0.8709758417383561,0.0013397534925524385,-0.10140296869405807,0.2111417202916157,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,market_adjusted,odds_next_day,55,-0.026462160173180947,-0.021503641940930397,0.80714571825956,-0.002203076061941999,-0.2582120474442175,0.16670879217969664,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,market_adjusted,odds_sentiment_changes,22,0.11813595547071956,0.1295928963980839,,,,,descriptive only,
+social,economy,market_adjusted,equal_basket_next_session,45,0.15649551362505798,0.09691458729151303,0.25969334577331965,0.0038453037932089503,-0.15958980264546266,0.42692060256181247,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,market_adjusted,directional_spread_next_session,45,0.011565438652293075,0.04047997047414218,0.9486430375597555,0.0007219566611198526,-0.33195379688332055,0.30780677202427287,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,factor_adjusted,equal_basket_next_session,45,0.08292422100546956,0.030327013710269392,0.2573778894910369,0.003388682068242376,-0.14322451607734374,0.2749612549618201,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,economy,factor_adjusted,directional_spread_next_session,45,-0.029460094200734425,0.03652427303367227,0.9859187550699828,0.00017687563593697317,-0.3166446147278581,0.26134217140747346,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,market_adjusted,odds_same_day,94,0.0008565504529535817,-0.006393020789286071,0.9941794177288672,0.00010250485715608982,-0.22442825827469298,0.21933016645424236,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,market_adjusted,odds_next_day,92,0.10140180828300989,0.13217933383581795,0.2575335773294362,0.01226388960497634,-0.08243691437635048,0.2682815274363598,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,market_adjusted,odds_sentiment_changes,57,-0.10570054182724431,-0.08511342692342701,0.4801300353481033,-0.010150242027866395,-0.34597484127812944,0.17514394062135932,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,market_adjusted,equal_basket_next_session,74,0.050230375451025405,0.04731633099539753,0.4914143562471846,0.0018727392625823396,-0.15052272225675545,0.2656403273694844,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,market_adjusted,directional_spread_next_session,74,-0.07090556654601192,-0.04429330201855409,0.5090123013839951,-0.005483047978342023,-0.2806717298418088,0.17864234963769623,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,factor_adjusted,equal_basket_next_session,74,-0.016067065589040835,-0.02901515066989927,0.8743316378416965,0.00036550140205561174,-0.1987151707948504,0.17619042589494924,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,governance,factor_adjusted,directional_spread_next_session,74,-0.11894605240044835,-0.12032840829396427,0.17630832565918347,-0.007605139899641039,-0.2968014426141159,0.08689918634952902,"OLS slope, Newey-West HAC(5); paired block(5) Pearson interval",1.0
+social,immigration,market_adjusted,odds_same_day,14,0.014939916275950024,-0.025584351775501123,,,,,descriptive only,
+social,immigration,market_adjusted,odds_next_day,13,0.3326829448707921,0.31302419451349356,,,,,descriptive only,
+social,immigration,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+social,immigration,market_adjusted,equal_basket_next_session,10,0.05086724345971372,-0.006079055436800646,,,,,descriptive only,
+social,immigration,market_adjusted,directional_spread_next_session,10,-0.2392862242963629,-0.3100318272768329,,,,,descriptive only,
+social,immigration,factor_adjusted,equal_basket_next_session,10,0.10991903899528689,0.03647433262080388,,,,,descriptive only,
+social,immigration,factor_adjusted,directional_spread_next_session,10,-0.27663076691972366,-0.2978737164032316,,,,,descriptive only,
+social,crime,market_adjusted,odds_same_day,20,-0.18207465575587659,-0.2033378421895437,,,,,descriptive only,
+social,crime,market_adjusted,odds_next_day,20,0.0010810691212766353,0.11129096216929031,,,,,descriptive only,
+social,crime,market_adjusted,odds_sentiment_changes,2,,,,,,,descriptive only,
+social,crime,market_adjusted,equal_basket_next_session,18,-0.056431671645231156,-0.19711042311661509,,,,,descriptive only,
+social,crime,market_adjusted,directional_spread_next_session,18,0.271229465208769,0.1042311661506708,,,,,descriptive only,
+social,crime,factor_adjusted,equal_basket_next_session,18,-0.05902912855800007,-0.10216718266253869,,,,,descriptive only,
+social,crime,factor_adjusted,directional_spread_next_session,18,0.2688134814827563,0.08152734778121776,,,,,descriptive only,
+news,pooled,market_adjusted,odds_same_day,2,,,,,,,descriptive only,
+news,pooled,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,pooled,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,pooled,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,pooled,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,pooled,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,pooled,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,election_all,market_adjusted,odds_same_day,2,,,,,,,descriptive only,
+news,election_all,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,election_all,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,election_all,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,election_all,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,election_all,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,election_all,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,economy,market_adjusted,odds_same_day,2,,,,,,,descriptive only,
+news,economy,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,economy,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,economy,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,economy,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,economy,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,economy,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,governance,market_adjusted,odds_same_day,1,,,,,,,descriptive only,
+news,governance,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,governance,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,governance,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,governance,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,governance,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,governance,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,immigration,market_adjusted,odds_same_day,1,,,,,,,descriptive only,
+news,immigration,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,immigration,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,immigration,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,immigration,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,immigration,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,immigration,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,crime,market_adjusted,odds_same_day,1,,,,,,,descriptive only,
+news,crime,market_adjusted,odds_next_day,1,,,,,,,descriptive only,
+news,crime,market_adjusted,odds_sentiment_changes,0,,,,,,,descriptive only,
+news,crime,market_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,crime,market_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,
+news,crime,factor_adjusted,equal_basket_next_session,0,,,,,,,descriptive only,
+news,crime,factor_adjusted,directional_spread_next_session,0,,,,,,,descriptive only,

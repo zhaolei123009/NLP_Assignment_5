@@ -1,0 +1,171 @@
+{
+  "packaged_at_utc": "2026-10-17T18:06:46.734922+00:00",
+  "historical_cutoff": "2026-10-07T23:04:38Z",
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 46,
+      "sha256": "b5cf578370d43566c0293b573a635596abde6177923caa879fd9e7be4904422e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6178,
+      "sha256": "40402b1c07e7d420686cf3dbca238cfcd3fc10b79a9e82447f709d44c080917d"
+    },
+    {
+      "file": "data/market.csv",
+      "bytes": 99972,
+      "sha256": "d9e0dfb014f3caef8177a1741beae49d017b9642bb0fc043749bac66fe43a81f"
+    },
+    {
+      "file": "data/news.csv",
+      "bytes": 93783,
+      "sha256": "4f7912fb3f7516c9ec489147a55b87b5b6a53986d9de7064c7e9f2d158071433"
+    },
+    {
+      "file": "data/poll_priorities.csv",
+      "bytes": 3796,
+      "sha256": "d5f90dc84a4bcca3f61e98a30aa64b277032cae69b82573744d73c096a38bcb3"
+    },
+    {
+      "file": "data/prices.csv",
+      "bytes": 69141,
+      "sha256": "93c6b20e9cc131d4e153595daf57f336973dbbbb020371258272aba920dac705"
+    },
+    {
+      "file": "data/social.csv",
+      "bytes": 309455,
+      "sha256": "08d5a6dbdbed0890576e499d73bd1e855f1e52d5f75575fcaf2b73a74861fb69"
+    },
+    {
+      "file": "data/sources.json",
+      "bytes": 12981,
+      "sha256": "99ebd38ac29dd1d5f7ed57596109e3a42a453bf6620c4239d094338b2f5d74a1"
+    },
+    {
+      "file": "equities.py",
+      "bytes": 7518,
+      "sha256": "597e1a725272303fb098e9072f21a38c9b0c0c6b02fd06397d760731caae520a"
+    },
+    {
+      "file": "fetch_inputs.py",
+      "bytes": 3834,
+      "sha256": "a8e86914d37ac1d67be7b3389c7f36bcc242ab5a5f1b25343751d25aac3dacf9"
+    },
+    {
+      "file": "inference.py",
+      "bytes": 4413,
+      "sha256": "fc7c847cfab300da3bec4b806ab4db5d3c1543329ff87efab1af9bbf6a7ac25e"
+    },
+    {
+      "file": "main.py",
+      "bytes": 1659,
+      "sha256": "13312bfec967cab1e1f6a6dcc882fd9ba253a255fa728c341de3a91e7a77e77e"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 102,
+      "sha256": "25e94eb8cca61e195c002cb80b8a8192c4696d4542c2196d26f7c72c825bb52d"
+    },
+    {
+      "file": "results/basket_panel.csv",
+      "bytes": 48210,
+      "sha256": "85c19cafae21837ec9de99a80b031cf9663d6f4531c9be98b26244b3cb13fd1f"
+    },
+    {
+      "file": "results/coverage.csv",
+      "bytes": 331,
+      "sha256": "b86485503ecb3522b9c9ca4b75c25bec512f5e16b464ff58f5ee349022a74890"
+    },
+    {
+      "file": "results/coverage_sensitivity.csv",
+      "bytes": 646,
+      "sha256": "f4b9526d0a2c2520687d7166fd129822345fc1ee5d29e270417005d3c42952f9"
+    },
+    {
+      "file": "results/daily_indices.csv",
+      "bytes": 201799,
+      "sha256": "3b52b52e38ad84f6c0be3799cffe1303e1cc80983650ddba868b494c2c84ffd0"
+    },
+    {
+      "file": "results/document_scores.csv",
+      "bytes": 163752,
+      "sha256": "33e8ba30dd053c48130d8fae1e151d5d3b09fe460d45d5dd5538b6fe8214972c"
+    },
+    {
+      "file": "results/forecasts.csv",
+      "bytes": 14827,
+      "sha256": "908dce21ee7643468838e521afc8f034239b1220ce11dc17be6dc3965a22db64"
+    },
+    {
+      "file": "results/key_results.csv",
+      "bytes": 474,
+      "sha256": "5a4a0acd90e540a4221eabfd1e53b1327c66014d9cd4a18f3415b2444655ac95"
+    },
+    {
+      "file": "results/news_topics.json",
+      "bytes": 1903,
+      "sha256": "348a0dc89af98794119c4ee9aceab82bc11f0df32914a23a6557ef69578c6500"
+    },
+    {
+      "file": "results/odds_equity.csv",
+      "bytes": 5481,
+      "sha256": "3898d359d7e5fa6508ca1b815fffe6c9d1acf6f64118759f62c6defb16d43d39"
+    },
+    {
+      "file": "results/odds_panel.csv",
+      "bytes": 25783,
+      "sha256": "7347d2f5ad1f6c8e57e20a5ec0562955a5dde366c9a3a449569c2548ce3309a8"
+    },
+    {
+      "file": "results/run_log.txt",
+      "bytes": 494,
+      "sha256": "c950a195928f50cb463b0ebcdf092860289029f6137f53946de2a701ac750701"
+    },
+    {
+      "file": "results/sentiment_associations.png",
+      "bytes": 117425,
+      "sha256": "fcb97e205e838890781c5cc0d05097bc8ecda386a95441d2bf64235f93944e3c"
+    },
+    {
+      "file": "results/sentiment_estimates.csv",
+      "bytes": 12033,
+      "sha256": "fc76d29c7be91d11c72801f60f28d831397c89f68c59464ddd1d89071f016600"
+    },
+    {
+      "file": "results/sentiment_over_time.png",
+      "bytes": 133951,
+      "sha256": "92f9397248f58f9316f7969c8332b98ec893a096ea9923159fa6294195b238bd"
+    },
+    {
+      "file": "results/summary.json",
+      "bytes": 33526,
+      "sha256": "e7c84d876db744f494bd0729b24537f791a2f582dd0ec02fac9439e1e2e65db1"
+    },
+    {
+      "file": "results/tests.txt",
+      "bytes": 849,
+      "sha256": "7844d703077eee19ab0bd5adb2ee7bca9d685deec89bc71159cb06aff7d780db"
+    },
+    {
+      "file": "results/verification.json",
+      "bytes": 495,
+      "sha256": "f3f5c6b9b168da9d5a004359c59b166aa28f8e3169589de91b33f3d350cc1980"
+    },
+    {
+      "file": "sentiment.py",
+      "bytes": 15456,
+      "sha256": "5dc3d959660089cd893289447a8bcd67ed2f07ed572dbedfa7c2d79b87b9b6ae"
+    },
+    {
+      "file": "test_core.py",
+      "bytes": 3265,
+      "sha256": "16f5b8f7b07bc82a4cd333f41376b42a7979f4ac01d4564affb300832b207515"
+    },
+    {
+      "file": "topics.py",
+      "bytes": 4124,
+      "sha256": "73c3870d82b567f253a56a746735b434303d5246c437b0d5bc0303c91066623d"
+    }
+  ]
+}
